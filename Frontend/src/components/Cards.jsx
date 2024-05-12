@@ -1,8 +1,6 @@
 import React from "react";
-// import list from "../../public/list.json";
 
 function Cards({ item }) {
-  console.log(item);
   return (
     <>
       <div>
@@ -17,8 +15,10 @@ function Cards({ item }) {
             </h2>
             <p>{item.title}</p>
             <div className="card-actions justify-end">
-              <div className="badge badge-outline">Fashion</div>
-              <div className="badge badge-outline">Products</div>
+              <div className="badge badge-outline">${item.price}</div>
+              <div className=" cursor-pointer px-2 py-1 rounded-full border-[2px] hover:bg-pink-500 hover:text-white duration-200">
+                Buy Now
+              </div>
             </div>
           </div>
         </div>

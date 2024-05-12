@@ -5,54 +5,69 @@
     "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
     "price": 0,
     "category": "Free",
-    "image": "https://img.freepik.com/Free-vector/hand-drawn-flat-design-stack-books_23-2149334862.jpg?t=st=1715489241~exp=1715492841~hmac=2d23e88e6283eeed6330e3653eca45895463f88124a01bdfaca42a70006d7b24&w=740"
+    "image": "https://unsplash.com/photos/white-and-brown-book-on-brown-woven-surface-LUGuCtvlk1Q"
   },
+
   {
     "id": 2,
     "name": "Story Book",
     "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
     "price": 0,
     "category": "Free",
-    "image": "https://img.freepik.com/Free-vector/hand-drawn-flat-design-stack-books_23-2149334862.jpg?t=st=1715489241~exp=1715492841~hmac=2d23e88e6283eeed6330e3653eca45895463f88124a01bdfaca42a70006d7b24&w=740"
+    "image": "https://unsplash.com/photos/white-and-brown-book-on-brown-woven-surface-LUGuCtvlk1Q"
   },
+
   {
     "id": 3,
     "name": "Music Book",
     "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
     "price": 120,
     "category": "Song",
-    "image": "https://img.freepik.com/Free-vector/hand-drawn-flat-design-stack-books_23-2149334862.jpg?t=st=1715489241~exp=1715492841~hmac=2d23e88e6283eeed6330e3653eca45895463f88124a01bdfaca42a70006d7b24&w=740"
+    "image": "https://unsplash.com/photos/white-and-brown-book-on-brown-woven-surface-LUGuCtvlk1Q"
   },
+
   {
     "id": 4,
     "name": "Science Book",
     "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
     "price": 120,
     "category": "Science",
-    "image": "https://img.freepik.com/Free-vector/hand-drawn-flat-design-stack-books_23-2149334862.jpg?t=st=1715489241~exp=1715492841~hmac=2d23e88e6283eeed6330e3653eca45895463f88124a01bdfaca42a70006d7b24&w=740"
+    "image": "https://unsplash.com/photos/white-and-brown-book-on-brown-woven-surface-LUGuCtvlk1Q"
   },
+
   {
     "id": 5,
     "name": "Mystery Book",
     "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
     "price": 99,
     "category": "Mystery",
-    "image": "https://img.freepik.com/Free-vector/hand-drawn-flat-design-stack-books_23-2149334862.jpg?t=st=1715489241~exp=1715492841~hmac=2d23e88e6283eeed6330e3653eca45895463f88124a01bdfaca42a70006d7b24&w=740"
+    "image": "https://unsplash.com/photos/white-and-brown-book-on-brown-woven-surface-LUGuCtvlk1Q"
   },
+
   {
     "id": 6,
     "name": "Story Book",
     "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
     "price": 0,
     "category": "Free",
-    "image": "https://img.freepik.com/Free-vector/hand-drawn-flat-design-stack-books_23-2149334862.jpg?t=st=1715489241~exp=1715492841~hmac=2d23e88e6283eeed6330e3653eca45895463f88124a01bdfaca42a70006d7b24&w=740"
+    "image": "https://unsplash.com/photos/white-and-brown-book-on-brown-woven-surface-LUGuCtvlk1Q"
   },
+
   {
     "id": 7,
     "name": "Fiction Book",
     "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
     "price": 199,
     "category": "Fiction",
-    "image": "https://img.freepik.com/Free-vector/hand-drawn-flat-design-stack-books_23-2149334862.jpg?t=st=1715489241~exp=1715492841~hmac=2d23e88e6283eeed6330e3653eca45895463f88124a01bdfaca42a70006d7b24&w=740"
+    "image": "https://unsplash.com/photos/white-and-brown-book-on-brown-woven-surface-LUGuCtvlk1Q"
+  },
+
+  {
+    "id": 8,
+    "name": "Ghost Book",
+    "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "price": 0,
+    "category": "Free",
+    "image": "https://unsplash.com/photos/white-and-brown-book-on-brown-woven-surface-LUGuCtvlk1Q"
   }
 ]
