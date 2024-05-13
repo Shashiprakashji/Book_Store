@@ -11,7 +11,7 @@ function App() {
       <Navbar />
       <Banner />
       <Freebook></Freebook>
-      <Cards></Cards>
+      {/* <Cards></Cards> */}
       <Footer />
     </>
   );
