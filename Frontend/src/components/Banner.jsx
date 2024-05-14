@@ -18,12 +18,7 @@ function Banner() {
               quaerat soluta.
             </p>
             <label className="input input-bordered flex items-center gap-2">
-              Email
-              <input
-                type="text"
-                className="grow"
-                placeholder="daisy@site.com"
-              />
+              <input type="text" className="grow" placeholder="Email" />
             </label>
           </div>
           <button className="btn btn-secondary mt-6">Secondary</button>

@@ -10,7 +10,7 @@ import Cards from "./Cards";
 
 function Freebook() {
   const filterData = list.filter((data) => data.category === "Free");
-  console.log(filterData);
+  // console.log(filterData);
   var settings = {
     dots: true,
     infinite: false,
@@ -58,7 +58,7 @@ function Freebook() {
           </p>
         </div>
 
-        <div>
+        <div className="slider-container">
           <Slider {...settings}>
             {filterData.map((item) => (
               <Cards item={item} key={item.id} />
