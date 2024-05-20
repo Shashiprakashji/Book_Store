@@ -1,9 +1,11 @@
 import express from "express";
 import mongoose from "mongoose";
 import dotenv from "dotenv";
+import cors from "cors";
 import bookRoute from "./route/book.route.js";
 
 const app = express();
+app.use(cors());
 
 dotenv.config();
 console.log(process.env.MongoDBURI);
