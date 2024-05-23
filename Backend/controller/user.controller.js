@@ -10,7 +10,14 @@ export const signup = async (req, res) => {
     const hashedPassword = await bcryptjs.hash(password, 10);
     const createdUser = new User({ fullname, email, password: hashedPassword });
     await createdUser.save();
-    res.status(201).json({ message: "User created successfully" });
+    res.status(201).json({
+      message: "User created successfully",
+      user: {
+        _id: createdUser._id,
+        fullname: createdUser.fullname,
+        email: createdUser.email,
+      },
+    });
   } catch (error) {
     console.log("Error:" + error.message);
     res.status(500).json({ message: "Internal server error" });
