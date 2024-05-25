@@ -35,22 +35,60 @@ Welcome to the Bookstore project! This project is a web application built with a
    ```sh
    git clone https://github.com/your-username/bookstore.git
    cd bookstore
+   
 
 # Navigate to frontend directory
-cd frontend
-npm install
+   ```sh
+   cd frontend
+   npm install
+   ```
 
 # Navigate to backend directory
+```sh
 cd ../backend
 npm install
+```
 
+```sh
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
+```
 
 # Run backend server
+```sh
 cd backend
 npm start
+```
 
 # Run frontend server
+```sh
 cd ../frontend
 npm run dev
+```
+
+# Frontend
+
+The frontend is built with React and Vite. It includes the following major components:
+
+- Home: Displays free books.
+- Courses: Accessible only when the user is logged in.
+- Contact: Contact form.
+- About: Information about the bookstore.
+- Login: User authentication.
+- Signup: User registration.
+
+Dark Mode and Light Mode
+
+The application supports dark mode and light mode, which can be toggled by the user.
+
+# Backend
+
+The backend is built with Node.js and Express.js. It handles user authentication, serves API routes, and connects to MongoDB.
+
+User Authentication
+
+The backend uses JWT for user authentication.
+
+Database
+
+The database is MongoDB, and it is used to store user information and book data.
